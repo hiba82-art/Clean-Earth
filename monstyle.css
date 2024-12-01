@@ -60,7 +60,7 @@ nav {
 
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -68,11 +68,11 @@ ul {
     justify-content: space-evenly;
 }
 
-li {
+nav ul li {
     position: relative;
 }
 
-li a {
+nav ul li a {
     display: block;
     padding: 10px 20px;
     color: white;
@@ -82,7 +82,7 @@ li a {
 }
 
 
-li a:hover:not(.active) {
+nav ul li a:hover:not(.active) {
     background-color: rgb(11, 80, 137);
 }
 
